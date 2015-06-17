@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 
 
   s.name         = "NZZCocopod06172308library"
-  s.version      = "0.2.0"
+  s.version      = "0.3.0"
   s.summary      = "测试NZZCocopod06172308library."
   s.description  = "壮壮测试NZZCocopod06172308library"
   s.homepage     = "https://github.com/noai966669/NZZCocopod06172308"
   s.license      = "MIT "
   s.author             = { "ai966669" => "joji966669@gmail.com" }
   #测试标签是否就是标签名
-  s.source       = { :git => "https://github.com/noai966669/NZZCocopod06172308.git", :tag => "0.2.0" }
+  s.source       = { :git => "https://github.com/noai966669/NZZCocopod06172308.git", :tag => "0.3.0" }
   s.source_files  = "myClass/*"
 end
