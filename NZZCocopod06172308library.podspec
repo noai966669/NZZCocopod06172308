@@ -70,8 +70,8 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  s.source       = { :git => "https://github.com/noai966669/NZZCocopod06172308.git", :tag => "0.0.1" }
+  #测试标签是否就是标签名
+  s.source       = { :git => "https://github.com/noai966669/NZZCocopod06172308.git", :tag => "0.1.0" }
 
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
 
